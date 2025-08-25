@@ -1,0 +1,289 @@
+RELATÓRIO DE PRÉ-PROCESSAMENTO DE TEXTOS
+============================================================
+
+
+ BULA DORIL
+----------------------------------------
+
+ Original:
+   Caracteres: 13742
+   Palavras: 1955
+   Amostra:
+      DORIL® (ácido acetilsalicílico + cafeína) Cosmed Indústria de
+      Cosméticos e Medicamentos S.A. Comprimido 500mg + 30mg
+      I - IDENTIFICAÇÃO DO MEDICAMENTO: Doril® ácido acetilsalicílico
+      ...
+
+
+ 1. Remover HTML:
+   Caracteres: 13742
+   Palavras: 1955
+   Amostra:
+      DORIL® (ácido acetilsalicílico + cafeína) Cosmed Indústria de
+      Cosméticos e Medicamentos S.A. Comprimido 500mg + 30mg
+      I - IDENTIFICAÇÃO DO MEDICAMENTO: Doril® ácido acetilsalicílico
+      ...
+
+
+ 2. Remover URLs:
+   Caracteres: 13742
+   Palavras: 1955
+   Amostra:
+      DORIL® (ácido acetilsalicílico + cafeína) Cosmed Indústria de
+      Cosméticos e Medicamentos S.A. Comprimido 500mg + 30mg
+      I - IDENTIFICAÇÃO DO MEDICAMENTO: Doril® ácido acetilsalicílico
+      ...
+
+
+ 3. Remover emojis:
+   Caracteres: 13730
+   Palavras: 1955
+   Amostra:
+      DORIL (ácido acetilsalicílico + cafeína) Cosmed Indústria de
+      Cosméticos e Medicamentos S.A. Comprimido 500mg + 30mg
+      I - IDENTIFICAÇÃO DO MEDICAMENTO: Doril ácido acetilsalicílico
+      ...
+
+
+ 4. Remover stopwords:
+   Caracteres: 11613
+   Palavras: 1320
+   Amostra:
+      DORIL (ácido acetilsalicílico + cafeína) Cosmed Indústria Cosméticos
+      Medicamentos S.A. Comprimido 500mg + 30mg I -
+      IDENTIFICAÇÃO MEDICAMENTO: Doril ácido acetilsalicílico + cafeína APRESENTAÇÕES
+      ...
+
+
+ 5. Remover pontuação:
+   Caracteres: 10952
+   Palavras: 1286
+   Amostra:
+      DORIL ácido acetilsalicílico cafeína Cosmed Indústria Cosméticos Medicamentos
+      SA Comprimido 500mg 30mg I IDENTIFICAÇÃO MEDICAMENTO Doril
+      ácido acetilsalicílico cafeína APRESENTAÇÕES Comprimido Emb
+      ...
+
+
+ 6. Remover caracteres especiais:
+   Caracteres: 10884
+   Palavras: 1271
+   Amostra:
+      DORIL ácido acetilsalicílico cafeína Cosmed Indústria Cosméticos Medicamentos
+      SA Comprimido 500mg 30mg I IDENTIFICAÇÃO MEDICAMENTO Doril
+      ácido acetilsalicílico cafeína APRESENTAÇÕES Comprimido Emb
+      ...
+
+
+ 7. Remover espaços excedentes:
+   Caracteres: 10835
+   Palavras: 1271
+   Amostra:
+      DORIL ácido acetilsalicílico cafeína Cosmed Indústria Cosméticos Medicamentos
+      SA Comprimido 500mg 30mg I IDENTIFICAÇÃO MEDICAMENTO Doril
+      ácido acetilsalicílico cafeína APRESENTAÇÕES Comprimido Embalag
+      ...
+
+
+ 8. Normalizar palavras de chat:
+   Caracteres: 10835
+   Palavras: 1271
+   Amostra:
+      DORIL ácido acetilsalicílico cafeína Cosmed Indústria Cosméticos Medicamentos
+      SA Comprimido 500mg 30mg I IDENTIFICAÇÃO MEDICAMENTO Doril
+      ácido acetilsalicílico cafeína APRESENTAÇÕES Comprimido Embalag
+      ...
+
+
+ 9. Converter números:
+   Caracteres: 11257
+   Palavras: 1332
+   Amostra:
+      DORIL ácido acetilsalicílico cafeína Cosmed Indústria Cosméticos Medicamentos
+      SA Comprimido 50mg 3mg I IDENTIFICAÇÃO MEDICAMENTO Doril
+      ácido acetilsalicílico cafeína APRESENTAÇÕES Comprimido Embalagen
+      ...
+
+
+ 10. Converter para minúsculas:
+   Caracteres: 11257
+   Palavras: 1332
+   Amostra:
+      doril ácido acetilsalicílico cafeína cosmed indústria cosméticos medicamentos
+      sa comprimido 50mg 3mg i identificação medicamento doril
+      ácido acetilsalicílico cafeína apresentações comprimido embalagen
+      ...
+
+
+ 11. Correção ortográfica:
+   Caracteres: 11216
+   Palavras: 1332
+   Amostra:
+      doris ácido acetilsalicílico cafeína cosme indústria cosméticos medicamentos
+      sa comprimido 50mg um i identificação medicamento doris
+      ácido acetilsalicílico cafeína apresentações comprimido embalagens
+      ...
+
+
+ 12. Stemização:
+   Caracteres: 8317
+   Palavras: 1332
+   Amostra:
+      doril ácid acetilsalicíl cafeín cosm indústr cosmé medic
+      sa comprim 50mg um i identific medic doril
+      ácid acetilsalicíl cafeín apresent comprim embal cont vint
+      ...
+
+
+ 13. Lematização:
+   Caracteres: 9136
+   Palavras: 1361
+   Amostra:
+      doril ácido acetilsalicíl Cafeín cosm indústr Cosmé médico
+      sa comprimido 50 um i identific médico doril
+      ácido acetilsalicíl Cafeín apresentar comprimido embal cont vinte
+      ...
+
+
+ JORNAL A TRIBUNA
+----------------------------------------
+
+ Original:
+   Caracteres: 2634
+   Palavras: 413
+   Amostra:
+      VITÓRIA-ES | DOMINGO, 14 DE JANEIRO DE 2018
+      | ANO LXXIX | Nº 26.236 | FUNDADO
+      EM 22/09/1938 | EDIÇÃO DE 72 PÁGINAS Vo
+      ...
+
+
+ 1. Remover HTML:
+   Caracteres: 2634
+   Palavras: 413
+   Amostra:
+      VITÓRIA-ES | DOMINGO, 14 DE JANEIRO DE 2018
+      | ANO LXXIX | Nº 26.236 | FUNDADO
+      EM 22/09/1938 | EDIÇÃO DE 72 PÁGINAS Vo
+      ...
+
+
+ 2. Remover URLs:
+   Caracteres: 2590
+   Palavras: 412
+   Amostra:
+      VITÓRIA-ES | DOMINGO, 14 DE JANEIRO DE 2018
+      | ANO LXXIX | Nº 26.236 | FUNDADO
+      EM 22/09/1938 | EDIÇÃO DE 72 PÁGINAS Vo
+      ...
+
+
+ 3. Remover emojis:
+   Caracteres: 2583
+   Palavras: 411
+   Amostra:
+      VITÓRIA-ES | DOMINGO, 14 DE JANEIRO DE 2018
+      | ANO LXXIX | Nº 26.236 | FUNDADO
+      EM 22/09/1938 | EDIÇÃO DE 72 PÁGINAS Vo
+      ...
+
+
+ 4. Remover stopwords:
+   Caracteres: 2195
+   Palavras: 309
+   Amostra:
+      VITÓRIA-ES | DOMINGO, 14 JANEIRO 2018 | ANO
+      LXXIX | Nº 26.236 | FUNDADO 22/09/1938 |
+      EDIÇÃO 72 PÁGINAS Vo c ê conhece bem
+      ...
+
+
+ 5. Remover pontuação:
+   Caracteres: 2087
+   Palavras: 301
+   Amostra:
+      VITÓRIAES DOMINGO 14 JANEIRO 2018 ANO LXXIX Nº
+      26236 FUNDADO 22091938 EDIÇÃO 72 PÁGINAS Vo c
+      ê conhece bem amigos AT 2 THIAGO COUTINHOAT
+      ...
+
+
+ 6. Remover caracteres especiais:
+   Caracteres: 1905
+   Palavras: 298
+   Amostra:
+      VITÓRIAES DOMINGO 14 JANEIRO 2018 ANO LXXIX N
+      26236 FUNDADO 22091938 EDIÇÃO 72 PÁGINAS Vo c
+      ê conhece bem amigos AT 2 THIAGO COUTINHOAT
+      ...
+
+
+ 7. Remover espaços excedentes:
+   Caracteres: 1894
+   Palavras: 298
+   Amostra:
+      VITÓRIAES DOMINGO 14 JANEIRO 2018 ANO LXXIX N
+      26236 FUNDADO 22091938 EDIÇÃO 72 PÁGINAS Vo c
+      ê conhece bem amigos AT 2 THIAGO COUTINHOAT
+      ...
+
+
+ 8. Normalizar palavras de chat:
+   Caracteres: 1907
+   Palavras: 298
+   Amostra:
+      VITÓRIAES DOMINGO 14 JANEIRO 2018 ANO LXXIX N
+      26236 FUNDADO 22091938 EDIÇÃO 72 PÁGINAS Vo c
+      ê conhece bem amigos AT 2 THIAGO COUTINHOAT
+      ...
+
+
+ 9. Converter números:
+   Caracteres: 2278
+   Palavras: 358
+   Amostra:
+      VITÓRIAES DOMINGO catorze JANEIRO dois mil e dezoito
+      ANO LXXIX N vinte e seis mil duzentos
+      e trinta e seis FUNDADO vinte e dois
+      ...
+
+
+ 10. Converter para minúsculas:
+   Caracteres: 2278
+   Palavras: 358
+   Amostra:
+      vitóriaes domingo catorze janeiro dois mil e dezoito
+      ano lxxix n vinte e seis mil duzentos
+      e trinta e seis fundado vinte e dois
+      ...
+
+
+ 11. Correção ortográfica:
+   Caracteres: 2108
+   Palavras: 358
+   Amostra:
+      vitórias domingo catorze janeiro dois mil e dezoito
+      ano xxi n vinte e seis mil duzentos
+      e trinta e seis fundado vinte e dois
+      ...
+
+
+ 12. Stemização:
+   Caracteres: 1710
+   Palavras: 358
+   Amostra:
+      vitór doming catorz jan doi mil e dezoit
+      ano xxi n vint e seil mil duzent
+      e trint e seil fund vint e doi
+      ...
+
+
+ 13. Lematização:
+   Caracteres: 1899
+   Palavras: 365
+   Amostra:
+      vitór doming catorze jan de oi mil e
+      dezoit ano xxi n vinte e seis mil
+      duzent e trinta e seis fundar vinte e
+      ...
+
